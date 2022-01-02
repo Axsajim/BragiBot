@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "repl_python3_BragiBot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.7.3"
+google_images_download = "^2.8.0"
+youtube_dl = "^2021.12.17"
+keyring = "^23.5.0"
+Faker = "^11.1.0"
+translators = "^4.11.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
